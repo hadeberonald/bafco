@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("/hero.png");
+    aspect-ratio: 2.03/1;
+    width:100vw;
+    flex-grow: 1;
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.wrapper{
+    margin-left: 10vw;
+    margin-top: 10vw;
+}
+
+.head{
+    font-size: 4vw;
+}
+
+.text {
+    font-size: 2vw;
+    width: 50vw;
+}
+
+.para {
+    padding-top: 2vw;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    font-size:1.5vw;
+    margin-top: 3vw;
+}
+
+.button1{
+    background-color: #03312e;
+    font-weight: bold;
+    width: max-content;
+    border-radius: 50px;
+    padding:0.7vw;
+}
+
+.button2{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: max-content;
+    border-radius: 50px;
+    padding:0.7vw;
+}
+
+@media screen and (max-width: 640px) {
+    .container { 
+        display: none;
+    }
+}

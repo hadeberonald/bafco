@@ -1,0 +1,53 @@
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    overflow-y: hidden;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 7vw;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 20vw;
+    height: 3vw;
+    position: relative;
+    object-fit: contain;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    object-fit: contain;
+}
+
+.links{
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        display: none;
+    }
+}

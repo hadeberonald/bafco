@@ -1,0 +1,76 @@
+.container{
+    width: 100vw;
+    display: none;
+}
+
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    
+}
+
+.button{
+    border: none;
+    background-color: white;
+    font-size: 5vw;
+    border-radius: 15vw;
+    padding: 2vw;
+    font-weight: bold;
+    margin-top: 2vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    margin-bottom: 4vw;;
+}
+
+.wrapper{
+    display: flex;
+    background-image: url("/mobile-contact-banner.png");
+    aspect-ratio: 1.59/1;
+    width:100vw;
+    flex-grow: 1;
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 1vw;
+}
+
+.field {
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 6px;
+    height: 7vw;
+}
+
+.fieldT {
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 5px;
+}
+
+.header{
+    width: 100vw;
+    padding-top: 6vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    font-size: 5vw;
+}
+
+
+@media screen and (max-width: 640px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
