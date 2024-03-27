@@ -49,6 +49,7 @@ const Services = () => {
           <ul>
             <li>Company registration with CIPC</li>
             <li>SARS Tax and VAT Registration</li>
+            <li>BEE Certificate Registration</li>
             <li>Filing SARS & CIPC Annual Returns</li>
             <li>Website Design & Development</li>
           </ul>

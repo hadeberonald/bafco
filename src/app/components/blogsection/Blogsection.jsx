@@ -9,7 +9,7 @@ const Blogsection = () => {
       <h2 className={styles.header}>Latest Updates</h2>
       <div className={styles.card}>
         <div className={styles.imageContainer}>
-          <Image src="/nyda.jpg" alt="" fill className={styles.image}/>
+          <Image src="/nyda.png" alt="" fill className={styles.image}/>
         </div>
         <div className={styles.textContainer}>
           <div className={styles.title}>
@@ -26,7 +26,7 @@ const Blogsection = () => {
       </div>
       <div className={styles.card}>
         <div className={styles.imageContainer}>
-          <Image src="/farmers.jpg" alt="" fill className={styles.image}/>
+          <Image src="/farmers.png" alt="" fill className={styles.image}/>
         </div>
         <div className={styles.textContainer}>
           <div className={styles.title}>
@@ -42,7 +42,7 @@ const Blogsection = () => {
       </div>
       <div className={styles.card}>
         <div className={styles.imageContainer}>
-          <Image src="/farm.jpg" alt="" fill className={styles.image}/>
+          <Image src="/farm.png" alt="" fill className={styles.image}/>
         </div>
         <div className={styles.textContainer}>
           <div className={styles.title}>
@@ -58,7 +58,7 @@ const Blogsection = () => {
       </div>
       <div className={styles.card}>
         <div className={styles.imageContainer}>
-          <Image src="/farmfinance.jpg" alt="" fill className={styles.image}/>
+          <Image src="/farmfinance.png" alt="" fill className={styles.image}/>
         </div>
         <div className={styles.textContainer}>
           <div className={styles.title}>

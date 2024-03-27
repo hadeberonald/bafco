@@ -7,7 +7,7 @@ const page = () => {
     <div className={styles.container}>
       <div className={styles.head}>
       <div className={styles.imageContainer}>
-          <Image src="/farm.jpg" alt="" fill className={styles.image}/>
+          <Image src="/farm.png" alt="" fill className={styles.image}/>
         </div>
         <div className={styles.text}>
         <div className={styles.title}>
