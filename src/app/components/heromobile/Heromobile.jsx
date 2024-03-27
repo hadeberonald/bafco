@@ -12,7 +12,7 @@ const Heromobile = () => {
       <h1 className={styles.head}>Welcome</h1>
       </div>
       <div className={styles.text}>
-      <p className={styles.para}>We Are Business Agricultural Finance Consultancy, your one-stop-shop for all your business needs.</p>
+      <p className={styles.para}>We Are the Business Agricultural Finance Consultancy, your one-stop-shop for all your business needs.</p>
       <p className={styles.para}>Learn more about the services we offer!</p>
       </div>
       <div className={styles.buttons}>
