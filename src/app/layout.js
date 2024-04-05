@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter ({ subsets: ["latin"] });
 
 export const metadata = {
   title: "BAFCO - Business and Agricultural Consultancy",
