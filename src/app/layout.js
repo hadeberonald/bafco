@@ -5,7 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 
 const Inter = local({
-  src [
+  src: [
     {
       path: '../public/fonts/Inter-VariableFont_slnt,wght.ttf',
       weight: '400',
