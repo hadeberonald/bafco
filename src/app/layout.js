@@ -1,10 +1,18 @@
-import { Inter } from "next/font/google";
+import local from "next/font/local";
 import "./globals.css";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 
-const inter = Inter ({ subsets: ['latin'], display: 'swap', adjustFontFallback: 'false' });
+const Inter = local({
+  src [
+    {
+      path: '../public/fonts/Inter-VariableFont_slnt,wght.ttf',
+      weight: '400',
+    },
+  ],
+  variable: '--font-inter',
+});
 
 export const metadata = {
   title: "BAFCO - Business and Agricultural Consultancy",
@@ -14,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.variable}`}>
       <Navbar/>
       <Sidebar/>
       {children}
