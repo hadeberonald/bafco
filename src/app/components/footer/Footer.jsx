@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.wrapper}> 
       <div className={styles.text}>
         <h4 className={styles.header}>Contact Details</h4>
-        <p className={styles.link}>Phone: 078 020 9875</p>
+        <p className={styles.link}>Phone: 066 480 4286</p>
         <p className={styles.link}>E-mail: admin@bafco.co.za</p>
         <p className={styles.link}><Link href="/">www.bafco.co.za </Link></p>
       </div>
